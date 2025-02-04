@@ -1,0 +1,86 @@
+/* Contenedor principal */
+.container {
+    padding: 20px !important;
+  }
+  
+  h1 {
+    text-align: center !important;
+    margin-top: 30px !important; 
+    margin-bottom: 60px !important; /* Incrementé el margen */
+    color: rgb(70, 70, 70);
+  }
+  
+  /* Tarjetas de productos */
+  .card {
+    border: 1px solid #ddd !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 8px 12px rgba(0, 123, 255, 0.5) !important; /* Sombreado azul */
+  }
+  
+  /* Contenedor overflow para las imágenes */
+  .overflow {
+    overflow: hidden !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  /* Imágenes de productos */
+  .card-img-top {
+    width: 95% !important; /* Más espacio para las imágenes */
+    height: 220px !important; /* Altura ligeramente mayor */
+    object-fit: cover !important;
+    border-radius: 8px !important; /* Bordes redondeados */
+    transition: transform 0.4s ease !important;
+  }
+  
+  /* Efecto hover sin sombra */
+  .card-img-top:hover {
+    transform: scale(1.2) !important; /* Efecto de zoom */
+  }
+  
+  /* Texto dentro de la tarjeta */
+  .card-body {
+    text-align: center !important;
+  }
+  
+  .card-title {
+    font-size: 1.3em !important; /* Títulos un poco más grandes */
+    font-weight: bold !important;
+    margin-bottom: 10px !important;
+  }
+  
+  .card-text {
+    color: #666 !important;
+    margin-bottom: 15px !important;
+  }
+  
+  /* Botón */
+  .btn-primary {
+    background-color: #007bff !important;
+    border: none !important;
+    transition: background-color 0.3s ease !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3 !important;
+  }
+  
+  /* Estilo exclusivo para las imágenes de las tarjetas de productos */
+  .product-cards .card-img-top {
+    width: 50% !important; /* Más espacio para las imágenes */
+    height: 220px !important; /* Altura ligeramente mayor */
+    object-fit: cover !important;
+    border-radius: 8px !important; /* Bordes redondeados */
+    transition: transform 0.4s ease !important;
+  }
+  
+  

@@ -1,0 +1,95 @@
+/* App.css */
+
+
+body {
+  margin: 0;
+}
+
+
+
+
+.App {
+  /* previous styles */
+  overflow: hidden; /* Add this line if necessary */
+}
+
+
+.dark-mode {
+  background: rgb(30, 30, 30); /* Dark mode background */
+  background: linear-gradient(
+    180deg,
+    rgba(30, 30, 30, 1) 0%,
+    rgba(50, 50, 50, 1) 15%,
+    rgba(70, 70, 70, 1) 30%,
+    rgba(90, 90, 90, 1) 45%,
+    rgba(20, 20, 20, 1) 100%
+  );
+    color: #ffffff !important;          
+}
+
+
+.light-mode {
+    background-color: #ffffff; 
+    color: #000000;         
+}
+
+
+.content {
+    padding: 20px;
+}
+
+
+.container {
+  min-height: calc(100vh - 100px); 
+  background-color: inherit; 
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.dark-mode {
+  background: rgb(30, 30, 30);
+  background: linear-gradient(
+    180deg,
+    rgba(30, 30, 30, 1) 0%,
+    rgba(50, 50, 50, 1) 15%,
+    rgba(70, 70, 70, 1) 30%,
+    rgba(90, 90, 90, 1) 45%,
+    rgba(20, 20, 20, 1) 100%
+  );
+  color: #ffffff !important;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+.dark-mode h1 {
+  color: #ffffff; 
+}
+
+
+.dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
+  color: #ffffff;
+}
+ 
+.dark-mode .navbar .nav-link {
+  color: #ffffff; 
+  transition: color 0.3s ease; 
+}
+ 
+.dark-mode .navbar .navbar-brand {
+  color: #ffffff; 
+  transition: color 0.3s ease; 
+}
+
+.dark-mode .navbar .nav-link:hover {
+  color: #cccccc; 
+}
+

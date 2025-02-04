@@ -1,0 +1,50 @@
+
+
+.logo-img{
+
+    padding-bottom: 50px;
+}
+.us{
+    padding-top: 60px;
+}
+.team-img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover;
+    display: block;
+  
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+  }
+  
+
+  .team-img1 {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+  }
+  
+  
+  .team-img:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .team-img1:hover {
+    transform: scale(1.1) rotate(-5deg); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+  }
+  
+ 
+  h5:hover {
+    color: #f39c12; 
+    transition: color 0.3s ease; 
+  }
+  
+  p.text-muted:hover {
+    color: #f39c12; 
+    transition: color 0.3s ease; 
+  }
+  
