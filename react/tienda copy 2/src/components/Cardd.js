@@ -22,7 +22,7 @@ function Card({tittle, imageSource, text, URL}) {
           <h4 className="card-tittle">{tittle}</h4>
           <p className="card-text text-dark">
            </p>
-            <a href={URL} className='btn btn-outline-secondary rounded -0 ' target="_blank">
+            <a href={URL} className='btn btn-outline-secondary rounded -0 ' target="_blank" rel="noreferrer">
              vamos
             </a>
 
